@@ -1,3 +1,17 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imagenes{
+background-color: #ffffff;
+padding: 5px 10px 5px 10px;
+margin:2px;
+float:left;
+width:200px;
+text-align:right;
+}
+
 img {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -6,16 +20,57 @@ img {
 
 }
 
+.redes-sociales {
+  margin-top: 5px;
+	text-align:right;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.container-fluid {
+  height: 65px;
+	width: 95%;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
 
 .c{
     height: 50%;
     background-color:aquamarine;
   }
-
-@font-face {
-	font-family: DancingScript;
-	src: url(../fuentes/DancingScript-Regular.ttf);
-}
 
 
 @media only screen and (max-width: 900px) {
@@ -28,24 +83,4 @@ img {
 		width:100%;
 	}
 
-}
-
-
-@media (min-width: 900px) {
-.c1, .c2, .c3, .c4 {
-		width: 25%;
-	}
-}
-
-@media (min-width: 900px) {
-
-.c1, .c2, .c3, .c4 {
-		width: 25%;
-	}
-
-	.container {
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
 }
